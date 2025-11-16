@@ -1,1 +1,13 @@
-This project is a simple Student Result Management System developed in Java to demonstrate exception handling and basic object-oriented concepts. The program allows the user to enter a student's roll number, name, and marks for three subjects, which are validated using a custom exception called InvalidMarksException. If any mark is outside the range of 0–100, the program throws an error and safely returns to the main menu, ensuring the application runs smoothly without crashing. Valid student data is stored inside an array of Student objects, and once the details are added, the system displays a “Details updated successfully” message followed by the student’s complete result, including average and pass/fail status. The user can also search for an existing student by roll number to view their stored details. The project uses try-catch blocks to handle invalid input, custom exceptions for domain-specific errors, and a menu-driven interface to make the system easy to use. Overall, this project demonstrates core Java features such as exception handling, custom exceptions, classes, objects, arrays, and interactive console-based programming.
+This project is a simple Student Result Management System created in Java.
+It is designed to demonstrate exception handling and basic object-oriented programming concepts.
+The program allows users to enter a student's roll number, name, and marks for three subjects.
+Marks are validated using a custom exception named InvalidMarksException.
+If marks are not between 0 and 100, the program throws an error and returns to the main menu without crashing.
+Valid student information is stored in an array of Student objects.
+After adding a student, the system displays a "Details updated successfully" message.
+It also shows the student’s complete details including marks, average, and pass/fail status.
+Users can search for a student by roll number to retrieve stored information.
+The project uses try-catch blocks to handle invalid or unexpected user inputs.
+Custom exceptions help manage specific validation-related errors.
+The program uses a simple menu-driven interface for smooth navigation.
+The project highlights key Java concepts like exception handling, classes, objects, arrays, and console-based programs.
