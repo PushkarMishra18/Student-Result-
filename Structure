@@ -1,0 +1,7 @@
+src/
+ ├── exceptions
+ │      └── InvalidMarksException.java
+ ├── model
+ │      └── Student.java
+ └── main
+        └── ResultManager.java
